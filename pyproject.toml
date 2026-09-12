@@ -1,0 +1,21 @@
+[project]
+name = "outline-cli"
+version = "1.0.0"
+description = "A single-file command line client for Outline wikis."
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+authors = [{ name = "Andrii Kohut" }]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/andriykohut/outline-cli"
+
+[dependency-groups]
+dev = ["ty>=0.0.80"]
+
+[tool.uv]
+package = false
+
+[tool.ty.environment]
+python-version = "3.12"
